@@ -1,0 +1,130 @@
+body{
+margin: 0;
+padding: 0;
+background-color: rgb(163, 247, 237);
+}
+
+.key:hover{
+background-color: #fff;
+color: black;
+}
+
+.key-rus:hover{
+background-color: #fff;
+color: black;
+}
+
+.form-control-lg{
+width: 500px;
+}
+
+.circle{
+background-color: rgb(19, 255, 36);
+width: 5px;
+height: 5px;
+}
+
+
+/*SmartPhones*/
+@media (min-width: 576px) {
+  .key{
+  padding: 12px;
+  margin-right: 1px;
+  background-color: rgb(244, 242, 240);
+  border-radius: 10px;
+  text-decoration: none;
+  color: #fff;
+  border: 1px solid gray;
+  font-size: 1rem;
+  cursor: pointer;
+  }
+
+
+  .addPadding{
+  padding-top: 23px;
+  }
+
+  .space{
+  padding-left:150px;
+  padding-right:150px;
+  }
+
+}
+
+/*Tablets*/
+@media (min-width: 768px) {
+  .key{
+  padding: 17px;
+  margin-right: 1px;
+  background-color: rgb(244, 242, 240);
+  border-radius: 10px;
+  text-decoration: none;
+  color: #fff;
+  border: 1px solid gray;
+  font-size: 1.2rem;
+  cursor: pointer;
+  }
+
+
+  .addPadding{
+  padding-top: 32px;
+  }
+
+  .space{
+  padding-left:200px;
+  padding-right:200px;
+  }
+
+}
+
+/*PC Large Screen*/
+@media (min-width: 992px) {
+  .key{
+  padding: 25px;
+  margin-right: 1px;
+  background-color: rgb(244, 242, 240);
+  border-radius: 10px;
+  text-decoration: none;
+  color: #fff;
+  border: 1px solid gray;
+  font-size: 1.3rem;
+  cursor: pointer;
+  }
+
+
+  .addPadding{
+  padding-top: 49px;
+  }
+
+  .space{
+  padding-left:290px;
+  padding-right:290px;
+  }
+
+}
+
+/*PC Extra-Large Screen*/
+@media (min-width: 1200px) {
+  .key{
+  padding: 32px;
+  margin-right: 1px;
+  background-color: rgb(244, 242, 240);
+  border-radius: 10px;
+  text-decoration: none;
+  color: #fff;
+  border: 1px solid gray;
+  font-size: 1.5rem;
+  cursor: pointer;
+  }
+
+
+  .addPadding{
+  padding-top: 62px;
+  }
+
+  .space{
+  padding-left:345px;
+  padding-right:345px;
+  }
+
+}
